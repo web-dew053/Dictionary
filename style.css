@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   height: 100vh;
+   background-image: linear-gradient(to right top, #e963b0, #d86ac2, #c273d1, #a97bdd, #8b83e4, #7593ec, #64a1ef, #5aadee, #76c3ed, #9cd7ec, #c7e8ee, #f2f8f8);
+}
+
+h1 {
+  font-family: "Poppins";
+
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.container {
+  width: 1152px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.input {
+  width: 1100px;
+  height: 60px;
+  border: 1px solid #3a2c2cdb;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 20px;
+  background: #fff;
+  -webkit-box-shadow: 4px 4px 51px 0px rgba(11, 12, 13, 0.1);
+  -moz-box-shadow: 4px 4px 51px 0px rgba(11, 12, 13, 0.1);
+  box-shadow: 4px 4px 51px 0px rgba(11, 12, 13, 0.1);
+  font-family: "Poppins";
+}
+
+.btn-search {
+  padding: 16px 40px;
+  font-size: 24px;
+  border-radius: 5px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.result_word {
+  background: rgb(252, 252, 252);
+  color: rgb(24, 9, 9);
+  padding-left: 15px;
+  font-size: 60px;
+}
+.result_sound {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.play {
+  font-size: 18 px;
+  font-family: "Poppins";
+}
+
+.img-sound {
+  width: 50px;
+  height: 50px;
+}
+.result {
+   display: none;
+  margin-top: 16px;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #282828;
+  min-height: 60vh;
+
+  -webkit-box-shadow: 4px 4px 51px 0px rgba(11, 12, 13, 0.1);
+  -moz-box-shadow: 4px 4px 51px 0px rgba(11, 12, 13, 0.1);
+  box-shadow: 4px 4px 51px 0px rgba(11, 12, 13, 0.1);
+}
+
+.div_el {
+   margin-left: 20px;
+  padding: 15px 0px;
+  font-family: "Poppins";
+}
+.div-2 {
+  font-family: "Poppins";
+  padding: 15px 0px;
+  padding-left: 40px;
+}
+.div-3 {
+   margin-left: 20px;
+  font-family: "Poppins";
+  padding: 15px 0px;
+}
+.div-4 {
+  font-family: "Poppins";
+  padding: 15px 0px;
+  padding-left: 40px;
+}
+.div-5 {
+  font-family: "Poppins";
+  padding: 15px 0px;
+  margin-left: 20px;
+}
